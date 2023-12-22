@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
+  </head>
+  <body>
+    <a class="a">
+      <div class="frame"></div>
+      <div class="wrapper">
+        <div class="div">Устойчивые & Привлекательные очки</div>
+      </div>
+      <div class="image-parent">
+        <img class="image-icon" alt="" src="./public/image@2x.png" />
+        <img class="image-icon1" alt="" src="./public/image1@2x.png" />
+        <img class="image-icon2" alt="" src="./public/image2@2x.png" />
+        <img class="image-icon3" alt="" src="./public/image3@2x.png" />
+        <div class="div1">ЖЕНСКИЕ ОЧКИ</div>
+        <div class="div2">ЖЕНСКИЕ СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</div>
+        <div class="div3">МУЖСКИЕ СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</div>
+        <div class="div4">МУЖСКИЕ ОЧКИ</div>
+      </div>
+      <div class="rectangle-parent">
+        <div class="rectangle"></div>
+        <div class="rectangle1"></div>
+        <input class="rectangle2" type="text" />
+        <img class="frame-icon" alt="" src="./public/frame@2x.png" />
+        <div class="div5">Подпишитесь на нашу рассылку новостей.</div>
+      </div>
+      <div class="rectangle-group">
+        <div class="rectangle3"></div>
+        <div class="rectangle4"></div>
+        <div class="rectangle5"></div>
+        <img class="frame-icon1" alt="" src="./public/frame@2x.png" />
+        <div class="div6">Связаться с нами.</div>
+        <div class="div7">Наша почта</div>
+        <div class="div8">О нас.</div>
+        <div class="div9">Про нас</div>
+        <div class="div10">Забота о клиентах.</div>
+        <div class="div11">Запишитесь на прием</div>
+        <div class="div12">Доставка и возврат товара</div>
+        <div class="div13">Следите за нами.</div>
+        <div class="instagram">Instagram</div>
+        <div class="tiktok">TikTok</div>
+        <div class="pinterest">Pinterest</div>
+      </div>
+      <div class="div14">Вконтакте</div>
+      <div class="rectangle-container">
+        <div class="rectangle6"></div>
+        <img class="logo-1-icon" alt="" src="./public/logo-1@2x.png" />
+      </div>
+      <div class="image-group">
+        <img class="image-icon4" alt="" src="./public/image4@2x.png" />
+        <div class="div15">ЗАПИШИТЕСЬ НА ПРИЕМ В МАГАЗИН</div>
+        <div class="div16" id="text16">Товары</div>
+        <div class="div17" id="text17">Оставить заяву</div>
+        <button class="button" id="text18">Главная</button>
+      </div>
+    </a>
+
+    <script>
+      var text16 = document.getElementById("text16");
+      if (text16) {
+        text16.addEventListener("click", function (e) {
+          window.location.href = "./Component1.html";
+        });
+      }
+
+      var text17 = document.getElementById("text17");
+      if (text17) {
+        text17.addEventListener("click", function (e) {
+          window.location.href = "./Component.html";
+        });
+      }
+
+      var text18 = document.getElementById("text18");
+      if (text18) {
+        text18.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+    </script>
+  </body>
+</html>
